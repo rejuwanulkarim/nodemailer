@@ -16,7 +16,7 @@ http.createServer((req, res) => {
             }
         })
         const mailOpt = {
-            from: "Important Mail",
+            from: `Client Mail<karimdr341@gmail.com>`,
             to: email,
             subject: "NodeMailer Mail",
             text: sendTxt
